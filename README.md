@@ -1,4 +1,4 @@
-# Udacity Image Precessing Api
+# Udacity Image Processing Api
 Udacity fullstack nanodegree
 
 
