@@ -7,7 +7,8 @@ const routers = express.Router();
 routers.use(
   '/image',
   [requestValidation, processImage],
-  (request: express.Request, response: express.Response) => {
+  (request: express.Request, response: express.Response): void => {
+    response.status(200);
     response.send('Ok');
   }
 );
